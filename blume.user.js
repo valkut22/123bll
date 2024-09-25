@@ -2,11 +2,13 @@
 // @name         Blume
 // @version      2.2
 // @namespace    Violentmonkey Scripts
+// @author       valkut22
 // @match        https://telegram.blum.codes/*
 // @grant        none
 // @icon         https://cdn.prod.website-files.com/65b6a1a4a0e2af577bccce96/65ba99c1616e21b24009b86c_blum-256.png
-// @downloadURL  https://github.com/valkut22/123bll/raw/main/blume.js
-// @updateURL    https://github.com/valkut22/123bll/raw/main/blume.js
+// @downloadURL  https://github.com/valkut22/123bll/raw/main/blume.user.js
+// @updateURL    https://github.com/valkut22/123bll/raw/main/blume.user.js
+// @homepage     https://github.com/valkut22/123bll
 // ==/UserScript==
 
 let GAME_SETTINGS = {
