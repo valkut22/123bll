@@ -430,7 +430,7 @@ try {
         } else if (continueButton) {
           setTimeout(() => {
             continueButton.click();
-          }, 9000);
+          }, 8000);
         }
       }, Math.floor(Math.random() * 5000) + 5000);
     }
