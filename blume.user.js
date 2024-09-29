@@ -427,9 +427,11 @@ try {
           claimButton.click();
         } else if (startFarmingButton) {
           startFarmingButton.click();
-        //} else if (continueButton) {
-        //  continueButton.click();
-        //}
+        } else if (continueButton) {
+          setTimeout(() => {
+            continueButton.click();
+          }, 3000);
+        }
       }, Math.floor(Math.random() * 5000) + 5000);
     }
 
