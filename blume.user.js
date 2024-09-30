@@ -15,9 +15,9 @@ let GAME_SETTINGS = {
     minBombHits: Math.floor(Math.random() * 2),
     minIceHits: Math.floor(Math.random() * 2) + 2,
     flowerSkipPercentage: Math.floor(Math.random() * 11) + 15,
-    minDelayMs: 2000,
-    maxDelayMs: 5000,
-    autoClickPlay: true
+    minDelayMs: 700,
+    maxDelayMs: 1400,
+    autoClickPlay: false
 };
 
 let isGamePaused = false;
