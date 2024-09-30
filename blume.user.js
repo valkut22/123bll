@@ -131,7 +131,7 @@ try {
     const observer = new MutationObserver(mutations => {
         for (const mutation of mutations) {
             if (mutation.type === 'childList') {
-                checkGameCompletion();                
+                checkGameCompletion();
             }
         }
     });
@@ -141,7 +141,7 @@ try {
         observer.observe(appElement, { childList: true, subtree: true });
     }
 
-    setTimeout(continuousPlayButtonCheck, 1000);
+    continuousPlayButtonCheck();
 
   const settingsMenu = document.createElement('div');
   settingsMenu.className = 'settings-menu';
@@ -428,9 +428,7 @@ try {
         } else if (startFarmingButton) {
           startFarmingButton.click();
         } else if (continueButton) {
-          setTimeout(() => {
-            continueButton.click();
-          }, 8000);
+          continueButton.click();
         }
       }, Math.floor(Math.random() * 5000) + 5000);
     }
